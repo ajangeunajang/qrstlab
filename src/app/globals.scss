@@ -15,7 +15,11 @@
   }
 }
 
-html{
+*{
+  word-break: keep-all;
+}
+
+html {
   scroll-behavior: smooth;
 }
 
@@ -25,6 +29,11 @@ body {
   font-family: var(--font-pretendard);
   font-weight: 700;
 }
+
+// #sectionholder{
+//   >section{
+//   }
+// }
 
 @font-face {
   font-family: 'Pretendard';

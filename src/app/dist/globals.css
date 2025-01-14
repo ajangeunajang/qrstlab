@@ -14,6 +14,10 @@
     --foreground: #ededed;
   }
 }
+* {
+  word-break: keep-all;
+}
+
 html {
   scroll-behavior: smooth;
 }
