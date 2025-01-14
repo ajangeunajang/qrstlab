@@ -1,0 +1,26 @@
+@charset "UTF-8";
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+  --font-pretendard: "Pretendard", sans-serif;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: var(--font-pretendard);
+}
+
+@font-face {
+  font-family: "Pretendard";
+  src: url("/fonts/PretendardVariable.ttf") format("truetype");
+  font-weight: 100 900;
+  /* 가변 폰트의 가중치 범위 */
+  font-style: normal;
+}
