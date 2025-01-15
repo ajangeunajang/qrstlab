@@ -5,7 +5,7 @@
 :root {
   --background: #000;
   --foreground: #fff;
-  --font-pretendard: 'Pretendard', sans-serif;
+  --font-pretendard: "Pretendard", sans-serif;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -15,7 +15,7 @@
   }
 }
 
-*{
+* {
   word-break: keep-all;
 }
 
@@ -36,8 +36,21 @@ body {
 // }
 
 @font-face {
-  font-family: 'Pretendard';
-  src: url('/fonts/PretendardVariable.ttf') format('truetype');
+  font-family: "Pretendard";
+  src: url("/fonts/PretendardVariable.ttf") format("truetype");
   font-weight: 100 900; /* 가변 폰트의 가중치 범위 */
   font-style: normal;
 }
+
+// 반응형
+// @media (max-width: 640px) {
+      
+// }
+
+// @media (min-width: 641px) and (max-width: 1024px) {
+
+// }
+
+// @media (min-width: 1025px) {
+
+// }
